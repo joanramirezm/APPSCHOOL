@@ -23,7 +23,7 @@ class UserController extends Controller
     {
         $user = User::find($id);
 
-        if (auth()->user()->id != $user->id) {
+        if (!$user || auth()->user()->id != $user->id) {
             return redirect()->back();
         }
 
