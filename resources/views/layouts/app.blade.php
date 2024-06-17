@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Dashboard - App School Bootstrap Template</title>
+    <title>App School</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -46,7 +46,7 @@
     <header id="header" class="header fixed-top d-flex align-items-center">
 
         <div class="d-flex align-items-center justify-content-between">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="{{ route('usuarios') }}" class="logo d-flex align-items-center">
                 <img src="assets/img/logo.png" alt="">
                 <span class="d-none d-lg-block">App School</span>
             </a>
